@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<holidays source="https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv" updated="2026-02-02T09:30:17+09:00" count="19">
+  <holiday date="1996-01-01" weekday="月">元日</holiday>
+  <holiday date="1996-01-15" weekday="月">成人の日</holiday>
+  <holiday date="1996-02-11" weekday="日">建国記念の日</holiday>
+  <holiday date="1996-02-12" weekday="月">休日</holiday>
+  <holiday date="1996-03-20" weekday="水">春分の日</holiday>
+  <holiday date="1996-04-29" weekday="月">みどりの日</holiday>
+  <holiday date="1996-05-03" weekday="金">憲法記念日</holiday>
+  <holiday date="1996-05-04" weekday="土">休日</holiday>
+  <holiday date="1996-05-05" weekday="日">こどもの日</holiday>
+  <holiday date="1996-05-06" weekday="月">休日</holiday>
+  <holiday date="1996-07-20" weekday="土">海の日</holiday>
+  <holiday date="1996-09-15" weekday="日">敬老の日</holiday>
+  <holiday date="1996-09-16" weekday="月">休日</holiday>
+  <holiday date="1996-09-23" weekday="月">秋分の日</holiday>
+  <holiday date="1996-10-10" weekday="木">体育の日</holiday>
+  <holiday date="1996-11-03" weekday="日">文化の日</holiday>
+  <holiday date="1996-11-04" weekday="月">休日</holiday>
+  <holiday date="1996-11-23" weekday="土">勤労感謝の日</holiday>
+  <holiday date="1996-12-23" weekday="月">天皇誕生日</holiday>
+</holidays>

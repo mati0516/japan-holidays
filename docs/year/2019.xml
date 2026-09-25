@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<holidays source="https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv" updated="2026-02-02T09:30:17+09:00" count="22">
+  <holiday date="2019-01-01" weekday="火">元日</holiday>
+  <holiday date="2019-01-14" weekday="月">成人の日</holiday>
+  <holiday date="2019-02-11" weekday="月">建国記念の日</holiday>
+  <holiday date="2019-03-21" weekday="木">春分の日</holiday>
+  <holiday date="2019-04-29" weekday="月">昭和の日</holiday>
+  <holiday date="2019-04-30" weekday="火">休日</holiday>
+  <holiday date="2019-05-01" weekday="水">休日（祝日扱い）</holiday>
+  <holiday date="2019-05-02" weekday="木">休日</holiday>
+  <holiday date="2019-05-03" weekday="金">憲法記念日</holiday>
+  <holiday date="2019-05-04" weekday="土">みどりの日</holiday>
+  <holiday date="2019-05-05" weekday="日">こどもの日</holiday>
+  <holiday date="2019-05-06" weekday="月">休日</holiday>
+  <holiday date="2019-07-15" weekday="月">海の日</holiday>
+  <holiday date="2019-08-11" weekday="日">山の日</holiday>
+  <holiday date="2019-08-12" weekday="月">休日</holiday>
+  <holiday date="2019-09-16" weekday="月">敬老の日</holiday>
+  <holiday date="2019-09-23" weekday="月">秋分の日</holiday>
+  <holiday date="2019-10-14" weekday="月">体育の日（スポーツの日）</holiday>
+  <holiday date="2019-10-22" weekday="火">休日（祝日扱い）</holiday>
+  <holiday date="2019-11-03" weekday="日">文化の日</holiday>
+  <holiday date="2019-11-04" weekday="月">休日</holiday>
+  <holiday date="2019-11-23" weekday="土">勤労感謝の日</holiday>
+</holidays>

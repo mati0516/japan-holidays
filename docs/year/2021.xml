@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<holidays source="https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv" updated="2026-02-02T09:30:17+09:00" count="17">
+  <holiday date="2021-01-01" weekday="金">元日</holiday>
+  <holiday date="2021-01-11" weekday="月">成人の日</holiday>
+  <holiday date="2021-02-11" weekday="木">建国記念の日</holiday>
+  <holiday date="2021-02-23" weekday="火">天皇誕生日</holiday>
+  <holiday date="2021-03-20" weekday="土">春分の日</holiday>
+  <holiday date="2021-04-29" weekday="木">昭和の日</holiday>
+  <holiday date="2021-05-03" weekday="月">憲法記念日</holiday>
+  <holiday date="2021-05-04" weekday="火">みどりの日</holiday>
+  <holiday date="2021-05-05" weekday="水">こどもの日</holiday>
+  <holiday date="2021-07-22" weekday="木">海の日</holiday>
+  <holiday date="2021-07-23" weekday="金">スポーツの日</holiday>
+  <holiday date="2021-08-08" weekday="日">山の日</holiday>
+  <holiday date="2021-08-09" weekday="月">休日</holiday>
+  <holiday date="2021-09-20" weekday="月">敬老の日</holiday>
+  <holiday date="2021-09-23" weekday="木">秋分の日</holiday>
+  <holiday date="2021-11-03" weekday="水">文化の日</holiday>
+  <holiday date="2021-11-23" weekday="火">勤労感謝の日</holiday>
+</holidays>

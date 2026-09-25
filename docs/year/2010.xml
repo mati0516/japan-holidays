@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<holidays source="https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv" updated="2026-02-02T09:30:17+09:00" count="16">
+  <holiday date="2010-01-01" weekday="金">元日</holiday>
+  <holiday date="2010-01-11" weekday="月">成人の日</holiday>
+  <holiday date="2010-02-11" weekday="木">建国記念の日</holiday>
+  <holiday date="2010-03-21" weekday="日">春分の日</holiday>
+  <holiday date="2010-03-22" weekday="月">休日</holiday>
+  <holiday date="2010-04-29" weekday="木">昭和の日</holiday>
+  <holiday date="2010-05-03" weekday="月">憲法記念日</holiday>
+  <holiday date="2010-05-04" weekday="火">みどりの日</holiday>
+  <holiday date="2010-05-05" weekday="水">こどもの日</holiday>
+  <holiday date="2010-07-19" weekday="月">海の日</holiday>
+  <holiday date="2010-09-20" weekday="月">敬老の日</holiday>
+  <holiday date="2010-09-23" weekday="木">秋分の日</holiday>
+  <holiday date="2010-10-11" weekday="月">体育の日</holiday>
+  <holiday date="2010-11-03" weekday="水">文化の日</holiday>
+  <holiday date="2010-11-23" weekday="火">勤労感謝の日</holiday>
+  <holiday date="2010-12-23" weekday="木">天皇誕生日</holiday>
+</holidays>

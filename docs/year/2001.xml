@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<holidays source="https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv" updated="2026-02-02T09:30:17+09:00" count="19">
+  <holiday date="2001-01-01" weekday="月">元日</holiday>
+  <holiday date="2001-01-08" weekday="月">成人の日</holiday>
+  <holiday date="2001-02-11" weekday="日">建国記念の日</holiday>
+  <holiday date="2001-02-12" weekday="月">休日</holiday>
+  <holiday date="2001-03-20" weekday="火">春分の日</holiday>
+  <holiday date="2001-04-29" weekday="日">みどりの日</holiday>
+  <holiday date="2001-04-30" weekday="月">休日</holiday>
+  <holiday date="2001-05-03" weekday="木">憲法記念日</holiday>
+  <holiday date="2001-05-04" weekday="金">休日</holiday>
+  <holiday date="2001-05-05" weekday="土">こどもの日</holiday>
+  <holiday date="2001-07-20" weekday="金">海の日</holiday>
+  <holiday date="2001-09-15" weekday="土">敬老の日</holiday>
+  <holiday date="2001-09-23" weekday="日">秋分の日</holiday>
+  <holiday date="2001-09-24" weekday="月">休日</holiday>
+  <holiday date="2001-10-08" weekday="月">体育の日</holiday>
+  <holiday date="2001-11-03" weekday="土">文化の日</holiday>
+  <holiday date="2001-11-23" weekday="金">勤労感謝の日</holiday>
+  <holiday date="2001-12-23" weekday="日">天皇誕生日</holiday>
+  <holiday date="2001-12-24" weekday="月">休日</holiday>
+</holidays>

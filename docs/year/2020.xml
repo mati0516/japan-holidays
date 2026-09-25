@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<holidays source="https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv" updated="2026-02-02T09:30:17+09:00" count="18">
+  <holiday date="2020-01-01" weekday="水">元日</holiday>
+  <holiday date="2020-01-13" weekday="月">成人の日</holiday>
+  <holiday date="2020-02-11" weekday="火">建国記念の日</holiday>
+  <holiday date="2020-02-23" weekday="日">天皇誕生日</holiday>
+  <holiday date="2020-02-24" weekday="月">休日</holiday>
+  <holiday date="2020-03-20" weekday="金">春分の日</holiday>
+  <holiday date="2020-04-29" weekday="水">昭和の日</holiday>
+  <holiday date="2020-05-03" weekday="日">憲法記念日</holiday>
+  <holiday date="2020-05-04" weekday="月">みどりの日</holiday>
+  <holiday date="2020-05-05" weekday="火">こどもの日</holiday>
+  <holiday date="2020-05-06" weekday="水">休日</holiday>
+  <holiday date="2020-07-23" weekday="木">海の日</holiday>
+  <holiday date="2020-07-24" weekday="金">スポーツの日</holiday>
+  <holiday date="2020-08-10" weekday="月">山の日</holiday>
+  <holiday date="2020-09-21" weekday="月">敬老の日</holiday>
+  <holiday date="2020-09-22" weekday="火">秋分の日</holiday>
+  <holiday date="2020-11-03" weekday="火">文化の日</holiday>
+  <holiday date="2020-11-23" weekday="月">勤労感謝の日</holiday>
+</holidays>

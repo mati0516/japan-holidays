@@ -1,0 +1,43 @@
+name: 祝日データの更新
+
+on:
+  schedule:
+    - cron: "17 0 1 * *"   # 毎月1日 09:17（日本時間）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 内閣府から取得して書き出す
+        run: python scripts/generate.py
+      - name: 全形式を検査する
+        run: python scripts/validate.py
+      - name: 変更をコミットする
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data docs
+          if git diff --cached --quiet; then
+            echo "変更なし"
+            exit 0
+          fi
+          if git diff --cached --name-only | grep -qv '^docs/checked.json$'; then
+            msg="祝日データを更新（内閣府の公表データに変更あり）"
+          else
+            msg="定期確認（変更なし）"
+          fi
+          git commit -m "$msg"
+          git push

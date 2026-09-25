@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<holidays source="https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv" updated="2026-02-02T09:30:17+09:00" count="9">
+  <holiday date="1962-01-01" weekday="月">元日</holiday>
+  <holiday date="1962-01-15" weekday="月">成人の日</holiday>
+  <holiday date="1962-03-21" weekday="水">春分の日</holiday>
+  <holiday date="1962-04-29" weekday="日">天皇誕生日</holiday>
+  <holiday date="1962-05-03" weekday="木">憲法記念日</holiday>
+  <holiday date="1962-05-05" weekday="土">こどもの日</holiday>
+  <holiday date="1962-09-23" weekday="日">秋分の日</holiday>
+  <holiday date="1962-11-03" weekday="土">文化の日</holiday>
+  <holiday date="1962-11-23" weekday="金">勤労感謝の日</holiday>
+</holidays>

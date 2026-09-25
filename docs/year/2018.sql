@@ -1,0 +1,26 @@
+CREATE TABLE IF NOT EXISTS holidays (
+  date DATE PRIMARY KEY,
+  name VARCHAR(64) NOT NULL,
+  weekday CHAR(1) NOT NULL
+);
+
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-01-01', '元日', '月');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-01-08', '成人の日', '月');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-02-11', '建国記念の日', '日');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-02-12', '休日', '月');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-03-21', '春分の日', '水');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-04-29', '昭和の日', '日');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-04-30', '休日', '月');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-05-03', '憲法記念日', '木');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-05-04', 'みどりの日', '金');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-05-05', 'こどもの日', '土');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-07-16', '海の日', '月');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-08-11', '山の日', '土');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-09-17', '敬老の日', '月');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-09-23', '秋分の日', '日');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-09-24', '休日', '月');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-10-08', '体育の日', '月');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-11-03', '文化の日', '土');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-11-23', '勤労感謝の日', '金');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-12-23', '天皇誕生日', '日');
+INSERT INTO holidays (date, name, weekday) VALUES ('2018-12-24', '休日', '月');

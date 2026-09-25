@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<holidays source="https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv" updated="2026-02-02T09:30:17+09:00" count="9">
+  <holiday date="1955-01-01" weekday="土">元日</holiday>
+  <holiday date="1955-01-15" weekday="土">成人の日</holiday>
+  <holiday date="1955-03-21" weekday="月">春分の日</holiday>
+  <holiday date="1955-04-29" weekday="金">天皇誕生日</holiday>
+  <holiday date="1955-05-03" weekday="火">憲法記念日</holiday>
+  <holiday date="1955-05-05" weekday="木">こどもの日</holiday>
+  <holiday date="1955-09-24" weekday="土">秋分の日</holiday>
+  <holiday date="1955-11-03" weekday="木">文化の日</holiday>
+  <holiday date="1955-11-23" weekday="水">勤労感謝の日</holiday>
+</holidays>

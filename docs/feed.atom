@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja">
+  <title>日本の祝日・休日</title>
+  <subtitle>内閣府が公表している国民の祝日・休日（今年以降）</subtitle>
+  <link href="https://mati0516.github.io/japan-holidays/"/>
+  <link href="https://mati0516.github.io/japan-holidays/feed.atom" rel="self"/>
+  <id>tag:mati0516.github.io,2026:japan-holidays</id>
+  <updated>2026-02-02T09:30:17+09:00</updated>
+  <author><name>japan-holidays</name></author>
+  <entry>
+    <title>2027-11-23（火） 勤労感謝の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-11-23</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-11-23.json"/>
+    <updated>2027-11-23T00:00:00+09:00</updated>
+    <summary>2027年11月23日（火）は「勤労感謝の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-11-03（水） 文化の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-11-03</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-11-03.json"/>
+    <updated>2027-11-03T00:00:00+09:00</updated>
+    <summary>2027年11月3日（水）は「文化の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-10-11（月） スポーツの日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-10-11</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-10-11.json"/>
+    <updated>2027-10-11T00:00:00+09:00</updated>
+    <summary>2027年10月11日（月）は「スポーツの日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-09-23（木） 秋分の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-09-23</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-09-23.json"/>
+    <updated>2027-09-23T00:00:00+09:00</updated>
+    <summary>2027年9月23日（木）は「秋分の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-09-20（月） 敬老の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-09-20</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-09-20.json"/>
+    <updated>2027-09-20T00:00:00+09:00</updated>
+    <summary>2027年9月20日（月）は「敬老の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-08-11（水） 山の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-08-11</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-08-11.json"/>
+    <updated>2027-08-11T00:00:00+09:00</updated>
+    <summary>2027年8月11日（水）は「山の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-07-19（月） 海の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-07-19</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-07-19.json"/>
+    <updated>2027-07-19T00:00:00+09:00</updated>
+    <summary>2027年7月19日（月）は「海の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-05-05（水） こどもの日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-05-05</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-05-05.json"/>
+    <updated>2027-05-05T00:00:00+09:00</updated>
+    <summary>2027年5月5日（水）は「こどもの日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-05-04（火） みどりの日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-05-04</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-05-04.json"/>
+    <updated>2027-05-04T00:00:00+09:00</updated>
+    <summary>2027年5月4日（火）は「みどりの日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-05-03（月） 憲法記念日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-05-03</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-05-03.json"/>
+    <updated>2027-05-03T00:00:00+09:00</updated>
+    <summary>2027年5月3日（月）は「憲法記念日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-04-29（木） 昭和の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-04-29</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-04-29.json"/>
+    <updated>2027-04-29T00:00:00+09:00</updated>
+    <summary>2027年4月29日（木）は「昭和の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-03-22（月） 休日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-03-22</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-03-22.json"/>
+    <updated>2027-03-22T00:00:00+09:00</updated>
+    <summary>2027年3月22日（月）は「休日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-03-21（日） 春分の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-03-21</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-03-21.json"/>
+    <updated>2027-03-21T00:00:00+09:00</updated>
+    <summary>2027年3月21日（日）は「春分の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-02-23（火） 天皇誕生日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-02-23</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-02-23.json"/>
+    <updated>2027-02-23T00:00:00+09:00</updated>
+    <summary>2027年2月23日（火）は「天皇誕生日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-02-11（木） 建国記念の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-02-11</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-02-11.json"/>
+    <updated>2027-02-11T00:00:00+09:00</updated>
+    <summary>2027年2月11日（木）は「建国記念の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-01-11（月） 成人の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-01-11</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-01-11.json"/>
+    <updated>2027-01-11T00:00:00+09:00</updated>
+    <summary>2027年1月11日（月）は「成人の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2027-01-01（金） 元日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2027-01-01</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2027-01-01.json"/>
+    <updated>2027-01-01T00:00:00+09:00</updated>
+    <summary>2027年1月1日（金）は「元日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-11-23（月） 勤労感謝の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-11-23</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-11-23.json"/>
+    <updated>2026-11-23T00:00:00+09:00</updated>
+    <summary>2026年11月23日（月）は「勤労感謝の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-11-03（火） 文化の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-11-03</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-11-03.json"/>
+    <updated>2026-11-03T00:00:00+09:00</updated>
+    <summary>2026年11月3日（火）は「文化の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-10-12（月） スポーツの日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-10-12</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-10-12.json"/>
+    <updated>2026-10-12T00:00:00+09:00</updated>
+    <summary>2026年10月12日（月）は「スポーツの日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-09-23（水） 秋分の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-09-23</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-09-23.json"/>
+    <updated>2026-09-23T00:00:00+09:00</updated>
+    <summary>2026年9月23日（水）は「秋分の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-09-22（火） 休日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-09-22</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-09-22.json"/>
+    <updated>2026-09-22T00:00:00+09:00</updated>
+    <summary>2026年9月22日（火）は「休日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-09-21（月） 敬老の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-09-21</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-09-21.json"/>
+    <updated>2026-09-21T00:00:00+09:00</updated>
+    <summary>2026年9月21日（月）は「敬老の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-08-11（火） 山の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-08-11</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-08-11.json"/>
+    <updated>2026-08-11T00:00:00+09:00</updated>
+    <summary>2026年8月11日（火）は「山の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-07-20（月） 海の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-07-20</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-07-20.json"/>
+    <updated>2026-07-20T00:00:00+09:00</updated>
+    <summary>2026年7月20日（月）は「海の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-05-06（水） 休日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-05-06</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-05-06.json"/>
+    <updated>2026-05-06T00:00:00+09:00</updated>
+    <summary>2026年5月6日（水）は「休日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-05-05（火） こどもの日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-05-05</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-05-05.json"/>
+    <updated>2026-05-05T00:00:00+09:00</updated>
+    <summary>2026年5月5日（火）は「こどもの日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-05-04（月） みどりの日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-05-04</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-05-04.json"/>
+    <updated>2026-05-04T00:00:00+09:00</updated>
+    <summary>2026年5月4日（月）は「みどりの日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-05-03（日） 憲法記念日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-05-03</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-05-03.json"/>
+    <updated>2026-05-03T00:00:00+09:00</updated>
+    <summary>2026年5月3日（日）は「憲法記念日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-04-29（水） 昭和の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-04-29</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-04-29.json"/>
+    <updated>2026-04-29T00:00:00+09:00</updated>
+    <summary>2026年4月29日（水）は「昭和の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-03-20（金） 春分の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-03-20</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-03-20.json"/>
+    <updated>2026-03-20T00:00:00+09:00</updated>
+    <summary>2026年3月20日（金）は「春分の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-02-23（月） 天皇誕生日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-02-23</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-02-23.json"/>
+    <updated>2026-02-23T00:00:00+09:00</updated>
+    <summary>2026年2月23日（月）は「天皇誕生日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-02-11（水） 建国記念の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-02-11</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-02-11.json"/>
+    <updated>2026-02-11T00:00:00+09:00</updated>
+    <summary>2026年2月11日（水）は「建国記念の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-01-12（月） 成人の日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-01-12</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-01-12.json"/>
+    <updated>2026-01-12T00:00:00+09:00</updated>
+    <summary>2026年1月12日（月）は「成人の日」です。</summary>
+  </entry>
+  <entry>
+    <title>2026-01-01（木） 元日</title>
+    <id>tag:mati0516.github.io,2026:japan-holidays:2026-01-01</id>
+    <link href="https://mati0516.github.io/japan-holidays/date/2026-01-01.json"/>
+    <updated>2026-01-01T00:00:00+09:00</updated>
+    <summary>2026年1月1日（木）は「元日」です。</summary>
+  </entry>
+</feed>

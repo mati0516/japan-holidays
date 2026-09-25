@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<holidays source="https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv" updated="2026-02-02T09:30:17+09:00" count="17">
+  <holiday date="2008-01-01" weekday="火">元日</holiday>
+  <holiday date="2008-01-14" weekday="月">成人の日</holiday>
+  <holiday date="2008-02-11" weekday="月">建国記念の日</holiday>
+  <holiday date="2008-03-20" weekday="木">春分の日</holiday>
+  <holiday date="2008-04-29" weekday="火">昭和の日</holiday>
+  <holiday date="2008-05-03" weekday="土">憲法記念日</holiday>
+  <holiday date="2008-05-04" weekday="日">みどりの日</holiday>
+  <holiday date="2008-05-05" weekday="月">こどもの日</holiday>
+  <holiday date="2008-05-06" weekday="火">休日</holiday>
+  <holiday date="2008-07-21" weekday="月">海の日</holiday>
+  <holiday date="2008-09-15" weekday="月">敬老の日</holiday>
+  <holiday date="2008-09-23" weekday="火">秋分の日</holiday>
+  <holiday date="2008-10-13" weekday="月">体育の日</holiday>
+  <holiday date="2008-11-03" weekday="月">文化の日</holiday>
+  <holiday date="2008-11-23" weekday="日">勤労感謝の日</holiday>
+  <holiday date="2008-11-24" weekday="月">休日</holiday>
+  <holiday date="2008-12-23" weekday="火">天皇誕生日</holiday>
+</holidays>

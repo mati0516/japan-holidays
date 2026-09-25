@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<holidays source="https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv" updated="2026-02-02T09:30:17+09:00" count="12">
+  <holiday date="1972-01-01" weekday="土">元日</holiday>
+  <holiday date="1972-01-15" weekday="土">成人の日</holiday>
+  <holiday date="1972-02-11" weekday="金">建国記念の日</holiday>
+  <holiday date="1972-03-20" weekday="月">春分の日</holiday>
+  <holiday date="1972-04-29" weekday="土">天皇誕生日</holiday>
+  <holiday date="1972-05-03" weekday="水">憲法記念日</holiday>
+  <holiday date="1972-05-05" weekday="金">こどもの日</holiday>
+  <holiday date="1972-09-15" weekday="金">敬老の日</holiday>
+  <holiday date="1972-09-23" weekday="土">秋分の日</holiday>
+  <holiday date="1972-10-10" weekday="火">体育の日</holiday>
+  <holiday date="1972-11-03" weekday="金">文化の日</holiday>
+  <holiday date="1972-11-23" weekday="木">勤労感謝の日</holiday>
+</holidays>

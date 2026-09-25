@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>日本の祝日・休日データ</title>
+<meta name="description" content="内閣府が公表する国民の祝日・休日を、JSON・CSV・XML・iCalendar など多くの形式で毎月自動更新して配布しています。">
+<link rel="alternate" type="application/rss+xml" title="日本の祝日・休日（RSS）" href="feed.rss">
+<link rel="alternate" type="application/atom+xml" title="日本の祝日・休日（Atom）" href="feed.atom">
+<style>
+:root{
+  --bg:#f7f7f5; --panel:#ffffff; --ink:#1d1d1b; --sub:#6b6b66; --line:#e3e2dd;
+  --accent:#c8102e; --accent-soft:#fbe9ec; --sat:#2358b8; --code:#f1f0ec;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#141413; --panel:#1d1d1b; --ink:#ecebe6; --sub:#9c9b95; --line:#2f2f2c;
+    --accent:#ff6b7f; --accent-soft:#3a1d22; --sat:#7fa6ff; --code:#262624; }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Hiragino Sans","Noto Sans JP","Yu Gothic UI",system-ui,sans-serif;line-height:1.7}
+main{max-width:960px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:28px;margin:0 0 4px;letter-spacing:.02em}
+h2{font-size:19px;margin:40px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+p.lead{color:var(--sub);margin:0 0 24px}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.card .label{font-size:13px;color:var(--sub)}
+.card .big{font-size:22px;font-weight:700;margin-top:2px}
+.card .small{font-size:14px;color:var(--sub)}
+.is-holiday .big{color:var(--accent)}
+.toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+select,button{font:inherit;font-size:14px;color:var(--ink);background:var(--panel);
+  border:1px solid var(--line);border-radius:6px;padding:6px 10px;cursor:pointer}
+button:hover,select:hover{border-color:var(--sub)}
+table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th,td{text-align:left;padding:8px 14px;border-bottom:1px solid var(--line);font-size:15px}
+th{font-size:13px;color:var(--sub);font-weight:600;background:var(--code)}
+tr:last-child td{border-bottom:none}
+td.wd-sun{color:var(--accent)} td.wd-sat{color:var(--sat)}
+tr.past td{color:var(--sub)}
+tr.today td{background:var(--accent-soft)}
+.formats{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px}
+.fmt{display:flex;justify-content:space-between;align-items:center;gap:8px;background:var(--panel);
+  border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-size:14px}
+.fmt a{color:var(--ink);text-decoration:none;font-weight:600}
+.fmt a:hover{color:var(--accent)}
+.fmt .ext{color:var(--sub);font-size:12px;font-family:ui-monospace,Menlo,Consolas,monospace}
+.copy{font-size:12px;padding:2px 8px}
+code,pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px}
+code{background:var(--code);padding:1px 6px;border-radius:4px}
+pre{background:var(--code);padding:12px 14px;border-radius:8px;overflow-x:auto;margin:8px 0 16px}
+dl{margin:0} dt{font-weight:600;margin-top:14px} dd{margin:4px 0 0}
+footer{margin-top:48px;color:var(--sub);font-size:13px}
+a{color:var(--accent)}
+@media (max-width:600px){ .hero{grid-template-columns:1fr} h1{font-size:23px} th,td{padding:7px 10px} }
+</style>
+</head>
+<body>
+<main>
+  <h1>日本の祝日・休日データ</h1>
+  <p class="lead">内閣府が公表している「国民の祝日」を毎月自動で取り込み、さまざまな形式で配布しています。登録不要・無料でお使いいただけます。</p>
+
+  <div class="hero">
+    <div class="card" id="today-card"><div class="label">今日</div><div class="big" id="today-big">読み込み中…</div><div class="small" id="today-small"></div></div>
+    <div class="card"><div class="label">次の祝日</div><div class="big" id="next-big">—</div><div class="small" id="next-small"></div></div>
+  </div>
+
+  <h2>祝日の一覧</h2>
+  <div class="toolbar">
+    <select id="year" aria-label="年を選ぶ"></select>
+    <button id="prev" aria-label="前の年">← 前の年</button>
+    <button id="next" aria-label="次の年">次の年 →</button>
+  </div>
+  <table><thead><tr><th>日付</th><th>曜日</th><th>名称</th></tr></thead><tbody id="rows"></tbody></table>
+
+  <h2>ダウンロード</h2>
+  <div class="toolbar">
+    <label>範囲：<select id="scope"></select></label>
+  </div>
+  <div class="formats" id="formats"></div>
+
+  <h2>使い方</h2>
+  <dl>
+    <dt>全件（1955年〜）</dt>
+    <dd><pre id="ex-all"></pre></dd>
+    <dt>年ごと</dt>
+    <dd><pre id="ex-year"></pre></dd>
+    <dt>その日が祝日かどうか</dt>
+    <dd>祝日なら中身が返り、祝日でなければ 404 が返ります。
+      <pre id="ex-date"></pre></dd>
+    <dt>カレンダーに登録する</dt>
+    <dd>下の URL を、Google カレンダーの「URL で追加」や、iPhone・Outlook の「照会カレンダー」に登録すると、祝日が自動で表示され続けます。
+      <pre id="ex-ics"></pre></dd>
+    <dt>更新の通知を受け取る</dt>
+    <dd>RSS：<code id="ex-rss"></code><br>Atom：<code id="ex-atom"></code></dd>
+  </dl>
+
+  <h2>データについて</h2>
+  <dl>
+    <dt>出典</dt>
+    <dd>内閣府「<a href="https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html">国民の祝日について</a>」で公表されている CSV を加工して作成しています。</dd>
+    <dt>更新</dt>
+    <dd>毎月1日に自動で確認します。内閣府のデータが更新されていれば、すべての形式が作り直されます。<br>
+      最終確認：<span id="checked">—</span>／内閣府側の最終更新：<span id="source-mod">—</span></dd>
+    <dt>収録範囲</dt>
+    <dd id="range">—</dd>
+    <dt>曜日</dt>
+    <dd>曜日は内閣府のデータには無く、日付から計算して付けています。「休日」は振替休日と国民の休日です。</dd>
+  </dl>
+
+  <footer>
+    ソースコード：<a href="https://github.com/mati0516/japan-holidays">GitHub</a>
+  </footer>
+</main>
+
+<script>
+(async () => {
+  const base = new URL('.', location.href).href;
+  const WD = ['日','月','火','水','木','金','土'];
+  const jstToday = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo' }).format(new Date());
+  const $ = id => document.getElementById(id);
+  const fmtJa = iso => { const [y,m,d] = iso.split('-').map(Number); return `${y}年${m}月${d}日`; };
+  const wdOf = iso => WD[new Date(iso + 'T00:00:00Z').getUTCDay()];
+
+  const [meta, list, checked] = await Promise.all([
+    fetch('meta.json').then(r => r.json()),
+    fetch('all.list.json').then(r => r.json()),
+    fetch('checked.json').then(r => r.json()).catch(() => null),
+  ]);
+  const byDate = new Map(list.map(h => [h.date, h]));
+
+  // 今日と次の祝日
+  const t = byDate.get(jstToday);
+  $('today-big').textContent = t ? t.name : '祝日ではありません';
+  $('today-small').textContent = `${fmtJa(jstToday)}（${wdOf(jstToday)}）`;
+  if (t) $('today-card').classList.add('is-holiday');
+  const nx = list.find(h => h.date > jstToday);
+  if (nx) {
+    const days = Math.round((Date.parse(nx.date) - Date.parse(jstToday)) / 86400000);
+    $('next-big').textContent = nx.name;
+    $('next-small').textContent = `${fmtJa(nx.date)}（${nx.weekday}）・あと${days}日`;
+  }
+
+  // 一覧
+  const years = meta.years;
+  const thisYear = Number(jstToday.slice(0, 4));
+  const yearSel = $('year');
+  for (const y of [...years].reverse()) yearSel.add(new Option(`${y}年`, y));
+  yearSel.value = years.includes(thisYear) ? thisYear : years.at(-1);
+  const render = () => {
+    const y = Number(yearSel.value);
+    $('rows').innerHTML = '';
+    for (const h of list.filter(h => h.year === y)) {
+      const tr = document.createElement('tr');
+      if (h.date < jstToday) tr.className = 'past';
+      if (h.date === jstToday) tr.className = 'today';
+      const wdCls = h.weekday === '日' ? 'wd-sun' : h.weekday === '土' ? 'wd-sat' : '';
+      tr.innerHTML = `<td>${fmtJa(h.date)}</td><td class="${wdCls}">${h.weekday}</td><td></td>`;
+      tr.lastChild.textContent = h.name;
+      $('rows').appendChild(tr);
+    }
+    $('prev').disabled = y <= years[0];
+    $('next').disabled = y >= years.at(-1);
+  };
+  yearSel.onchange = render;
+  $('prev').onclick = () => { yearSel.value = Number(yearSel.value) - 1; render(); };
+  $('next').onclick = () => { yearSel.value = Number(yearSel.value) + 1; render(); };
+  render();
+
+  // ダウンロード
+  const scope = $('scope');
+  scope.add(new Option('全件（1955年〜）', 'all'));
+  for (const y of [...years].reverse()) scope.add(new Option(`${y}年`, `year/${y}`));
+  const renderFormats = () => {
+    const box = $('formats'); box.innerHTML = '';
+    for (const f of meta.formats) {
+      if (scope.value !== 'all' && (f.ext === 'sqlite' || f.ext === 'xlsx')) continue;
+      const path = `${scope.value}.${f.ext}`;
+      const div = document.createElement('div'); div.className = 'fmt';
+      const a = document.createElement('a'); a.href = path; a.textContent = f.label;
+      const right = document.createElement('span');
+      const ext = document.createElement('span'); ext.className = 'ext'; ext.textContent = '.' + f.ext + ' ';
+      const btn = document.createElement('button'); btn.className = 'copy'; btn.textContent = 'URL';
+      btn.onclick = async () => { try { await navigator.clipboard.writeText(base + path); btn.textContent = 'コピー済'; setTimeout(() => btn.textContent = 'URL', 1500); } catch {} };
+      right.append(ext, btn); div.append(a, right); box.appendChild(div);
+    }
+  };
+  scope.onchange = renderFormats;
+  renderFormats();
+
+  // 使い方
+  $('ex-all').textContent = `${base}all.json\n${base}all.csv`;
+  $('ex-year').textContent = `${base}year/${thisYear}.json\n${base}year/${thisYear}.csv`;
+  $('ex-date').textContent = `${base}date/${nx ? nx.date : jstToday}.json`;
+  $('ex-ics').textContent = `${base}all.ics`;
+  $('ex-rss').textContent = `${base}feed.rss`;
+  $('ex-atom').textContent = `${base}feed.atom`;
+
+  // データについて
+  const iso2ja = s => s ? new Date(s).toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', dateStyle: 'long', timeStyle: 'short' }) : '—';
+  $('checked').textContent = checked ? iso2ja(checked.checked_at) : '—';
+  $('source-mod').textContent = iso2ja(meta.source_last_modified);
+  $('range').textContent = `${fmtJa(meta.first)} 〜 ${fmtJa(meta.last)}（${meta.count.toLocaleString()}件）`;
+})();
+</script>
+</body>
+</html>

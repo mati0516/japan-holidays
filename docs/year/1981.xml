@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<holidays source="https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv" updated="2026-02-02T09:30:17+09:00" count="13">
+  <holiday date="1981-01-01" weekday="木">元日</holiday>
+  <holiday date="1981-01-15" weekday="木">成人の日</holiday>
+  <holiday date="1981-02-11" weekday="水">建国記念の日</holiday>
+  <holiday date="1981-03-21" weekday="土">春分の日</holiday>
+  <holiday date="1981-04-29" weekday="水">天皇誕生日</holiday>
+  <holiday date="1981-05-03" weekday="日">憲法記念日</holiday>
+  <holiday date="1981-05-04" weekday="月">休日</holiday>
+  <holiday date="1981-05-05" weekday="火">こどもの日</holiday>
+  <holiday date="1981-09-15" weekday="火">敬老の日</holiday>
+  <holiday date="1981-09-23" weekday="水">秋分の日</holiday>
+  <holiday date="1981-10-10" weekday="土">体育の日</holiday>
+  <holiday date="1981-11-03" weekday="火">文化の日</holiday>
+  <holiday date="1981-11-23" weekday="月">勤労感謝の日</holiday>
+</holidays>
